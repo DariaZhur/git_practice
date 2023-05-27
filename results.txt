@@ -1,0 +1,80 @@
+dariazhuravleva@MacBook-Air-Daria git_practice % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        results.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+dariazhuravleva@MacBook-Air-Daria git_practice % 
+
+dariazhuravleva@MacBook-Air-Daria git_practice % git log
+commit cbf4a8f573ac3c74ab37e1397d837bc46023b8df (HEAD -> main, origin/main, origin/HEAD)
+Author: Дар'я Журавльова <113468024+DariaZhur@users.noreply.github.com>
+Date:   Sat May 27 16:35:08 2023 +0300
+
+    Create doc.txt
+
+commit 89955833c77784b12360d138aa5175b7e98483f6
+Merge: c316b06 5746a62
+Author: DariaZhur <dariazhur89@gmail.com>
+Date:   Sat May 27 16:30:43 2023 +0300
+:...skipping...
+commit cbf4a8f573ac3c74ab37e1397d837bc46023b8df (HEAD -> main, origin/main, origin/HEAD)
+Author: Дар'я Журавльова <113468024+DariaZhur@users.noreply.github.com>
+Date:   Sat May 27 16:35:08 2023 +0300
+
+    Create doc.txt
+
+commit 89955833c77784b12360d138aa5175b7e98483f6
+Merge: c316b06 5746a62
+Author: DariaZhur <dariazhur89@gmail.com>
+Date:   Sat May 27 16:30:43 2023 +0300
+
+    resolve conflict to index file
+
+commit c316b0602eb3c075c74e4452c98a36d6517c97db
+Author: DariaZhur <dariazhur89@gmail.com>
+Date:   Sat May 27 16:24:49 2023 +0300
+
+    edit index file
+
+commit 5746a62abad2ae0e9cf41d7eb5338f86c9e848a6 (origin/new-branch, new-branch)
+Author: DariaZhur <dariazhur89@gmail.com>
+Date:   Sat May 27 16:19:04 2023 +0300
+
+    add some text to index file
+
+commit 9e0b4eda3345d758f4cd14b45df5e75d96042345
+Author: DariaZhur <dariazhur89@gmail.com>
+Date:   Sat May 27 16:17:25 2023 +0300
+
+    add new text to index file
+
+commit 3daa1dfd756f0303a22feb2d89f1538f1fee208b
+Author: DariaZhur <dariazhur89@gmail.com>
+Date:   Sat May 27 16:14:54 2023 +0300
+
+    add content to index file
+
+commit c7f3e58563b455e89a6ae97cb65cc1a3dd54077d
+Author: DariaZhur <dariazhur89@gmail.com>
+Date:   Sat May 27 16:09:18 2023 +0300
+
+    init commit
+
+commit 784f0135f49a1273b2df2d22f007440a18575cf2
+Author: Дар'я Журавльова <113468024+DariaZhur@users.noreply.github.com>
+Date:   Sat May 27 15:54:33 2023 +0300
+
+    Initial commit
+(END)
+
+dariazhuravleva@MacBook-Air-Daria git_practice % git log --merges
+commit 89955833c77784b12360d138aa5175b7e98483f6
+Merge: c316b06 5746a62
+Author: DariaZhur <dariazhur89@gmail.com>
+Date:   Sat May 27 16:30:43 2023 +0300
+
+    resolve conflict to index file
